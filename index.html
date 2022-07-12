@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Swift.org Layout Playground</title>
+    <link rel="stylesheet" type="text/css" href="./screen.css" media="screen" />
+  </head>
+
+  <body>
+    <div class="grid-container">
+      <header class="site-navigation" role="banner">
+        <h1>
+          <a href="/" title="Swift.org">
+            <img class="swift-logo" src="logo.svg" alt="Swift.org logo">
+          </a>
+        </h1>
+  
+        <nav>
+          <ul class="navigation-links">
+            <li>
+              <a href="/">Blog</a>
+            </li>
+  
+            <li class="nav-dropdown">
+              <span>Community <i>⌄</i></span>
+              <ul class="nav-menu">
+                <li>
+                  <a href="/">Overview</a>
+                </li>
+                <li>
+                  <a href="/">Diversity</a>
+                </li>
+                <li>
+                  <a href="/">Mentorship</a>
+                </li>
+                <li>
+                  <a href="/">Contributing</a>
+                </li>
+                <li>
+                  <a href="/">Code of Conduct</a>
+                </li>
+              </ul>
+            </li>
+  
+            <li class="nav-dropdown">
+              <span>Open Source <i>⌄</i></span>
+              <ul class="nav-menu">
+                <li>
+                  <a href="/">Source Code</a>
+                </li>
+                <li>
+                  <a href="/">Continuous Integration</a>
+                </li>
+                <li>
+                  <a href="/">Source Compatiblity</a>
+                </li>
+                <li>
+                  <a href="/">Security</a>
+                </li>
+                <hr>
+                <li>
+                  <a href="/">Swift Compiler</a>
+                </li>
+                <li>
+                  <a href="/">Standard Library</a>
+                </li>
+                <li>
+                  <a href="/">Package Manager</a>
+                </li>
+                <li>
+                  <a href="/">Core Libraries</a>
+                </li>
+                <li>
+                  <a href="/">REPL, Debugger & Playgrounds</a>
+                </li>
+                <li>
+                  <a href="/">Swift on Server</a>
+                </li>
+                <li>
+                  <a href="/">Swift.org Website</a>
+                </li>
+                <li>
+                  <a href="/">C++ Interoperability</a>
+                </li>
+              </ul>
+            </li>
+  
+            <li>
+              <a href="/">Documentation</a>
+            </li>
+  
+            <li>
+              <a class="cta" href="/">Download</a>
+            </li>
+          </ul>
+        </nav>
+      </header>
+  
+      <main class="full-bleed grid-container">
+        <header class="subgrid-container">
+          <section class="intro">
+            <h2 class="main-headline">Safe, fast, and expressive.</h2>
+            <p class="intro-content">Swift makes it easy to write software that is incredibly fast and safe by design.</p>
+  
+            <p class="intro-content">Our goals for Swift are ambitious: we want to make programming simple things easy, and difficult things possible.</p>
+            <p class="intro-content">
+              <a href="/">Read more...</a>
+            </p>
+          </section>
+          <section class="code-sample">
+            <pre data-language="swift">
+              <code>
+  let names = ["Anna", "Alex", "Brian", "Jack"]
+  for name in names {
+      print("Hello, \(name)!")
+  }
+  // Hello, Anna!
+  // Hello, Alex!
+  // Hello, Brian!
+  // Hello, Jack!
+              </code>
+            </pre>
+            <div class="links subgrid-container">
+              <a href="/" class="cta-button secondary">Read the Docs</a>
+              <a href="/" class="cta-button primary">Get Started</a>
+            </div>
+          </section>
+        </header>
+  
+        <section class="features full-bleed grid-container">
+          <div class="box-container">
+            <div class="box">
+              <h3>Safe</h3>
+              <p>Opting for safety sometimes means Swift will feel strict, but we believe that clarity saves time in the long run.</p>
+            </div>
+            <div class="box">
+              <h3>Fast</h3>
+              <p>Swift must be comparable to C-based languages in performance for most tasks. Performance must also be predictable and consistent</p>
+            </div>
+            <div class="box">
+              <h3>Expressive</h3>
+              <p>Swift benefits from decades of advancement in computer science to offer syntax that is a joy to use, with modern features developers expect.</p>
+            </div>
+          </div>
+        </section>
+  
+        <section class="dynamic-content subgrid-container">
+          <ul class="latest-posts">
+            <h2>What's New</h2>
+            <li class="post">
+              <a class="link" href="/">
+                <h3>Swift language announcements from WWDC22</h3>
+                <time>July 6, 2022</time>
+              </a>
+            </li>
+  
+            <li class="post">
+              <a class="link" href="/">
+                <h3>Developer Spotlight: Porting Graphing Calculator from C++ to Swift</h3>
+                <time>June 30, 2022</time>
+              </a>
+            </li>
+  
+            <li class="post">
+              <a class="link" href="/">
+                <h3>Exploring Swift: Property wrappers in the wild</h3>
+                <time>June 21, 2022</time>
+              </a>
+            </li>
+            <li class="post">
+              <a class="link" href="/">
+                <h3>Announcing the Language Workgroup</h3>
+                <time>June 15, 2022</time>
+              </a>
+            </li>
+          </ul>
+          <ul class="releases">
+            <h2>Recent Releases</h2>
+            <li class="release">
+              <h3>Swift 5.6.2</h3>
+              <time>June 15, 2022</time>
+              Tag: <a href="/">swift-5.6.2-RELEASE</a>
+            </li>
+  
+            <li class="release">
+              <h3>Swift 5.6.1</h3>
+              <time>April 8, 2022</time>
+              Tag: <a href="/">swift-5.6.1-RELEASE</a>
+            </li>
+  
+            <li class="release">
+              <h3>Swift 5.6</h3>
+              <time>March 14, 2022</time>
+              Tag: <a href="/">swift-5.6-RELEASE</a>
+            </li>
+          </ul>
+        </section>
+      </main>
+      <footer class="full-bleed grid-container">
+        <div class="link-container">
+          <section class="links">
+            <h3>Swift</h3>
+            <ul class="link-group">
+              <li>
+                <a href="/">About</a>
+              </li>
+              <li>
+                <a href="/">Blog</a>
+              </li>
+              <li>
+                <a href="/">Getting Started</a>
+              </li>
+              <li>
+                <a href="/">Download</a>
+              </li>
+              <li>
+                <a href="/">Platform Support</a>
+              </li>
+              <li>
+                <a href="/">Documentation</a>
+              </li>
+            </ul>
+          </section>
+          <section class="links">
+            <h3>Community</h3>
+            <ul class="link-group">
+              <li>
+                <a href="/">Overview</a>
+              </li>
+              <li>
+                <a href="/">Diversity</a>
+              </li>
+              <li>
+                <a href="/">Mentorship</a>
+              </li>
+              <li>
+                <a href="/">Contributing</a>
+              </li>
+              <li>
+                <a href="/">Code of Conduct</a>
+              </li>
+            </ul>
+          </section>
+          <section class="links">
+            <h3>Open-source Development</h3>
+            <ul class="link-group">
+              <li>
+                <a href="/">Source Code</a>
+              </li>
+              <li>
+                <a href="/">Continuous Integration</a>
+              </li>
+              <li>
+                <a href="/">Source Compatiblity</a>
+              </li>
+              <li>
+                <a href="/">Security</a>
+              </li>
+            </ul>
+          </section>
+          <section class="links">
+            <h3>Open-source Efforts</h3>
+            <ul class="link-group">
+              <li>
+                <a href="/">Swift Compiler</a>
+              </li>
+              <li>
+                <a href="/">Standard Library</a>
+              </li>
+              <li>
+                <a href="/">Package Manager</a>
+              </li>
+              <li>
+                <a href="/">Core Libraries</a>
+              </li>
+              <li>
+                <a href="/">REPL, Debugger & Playgrounds</a>
+              </li>
+              <li>
+                <a href="/">Swift on Server</a>
+              </li>
+              <li>
+                <a href="/">Swift.org Website</a>
+              </li>
+              <li>
+                <a href="/">C++ Interoperability</a>
+              </li>
+            </ul>
+          </section>
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>
